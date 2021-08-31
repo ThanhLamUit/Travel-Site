@@ -1,0 +1,151 @@
+:root{
+    --text-color: #A09A9A;
+    --white-color: #fff;
+    --bold-text-color: #555555;
+    --header-height: 78px;
+    --primary-color: #F3A46B;
+    --border-color: #f1f1f1;
+    --yellow-color: #FFD205;
+    --red-color: #F76570;
+}
+.pri-color {
+    color: #F3A46B;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+
+}
+body {
+    position: relative;
+    margin: 0;
+}
+
+.grid {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.grid-1-2 {
+    width: 50%;
+    padding: 0 15px;
+}
+.grid-1-3 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.grid-2-3 {
+    width: 66.6667%;
+    padding: 0 15px;
+}
+.grid-full {
+    width: 100%;
+    padding: 0 15px;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+/* btn */
+
+.btn {
+    border-radius:24px;
+    outline: none;
+    border: none;
+    min-height:32px;
+    /* min-width:140px; */
+    cursor: pointer;
+    padding: 8px 16px;
+    
+}
+
+.btn-s {
+    color: var(--white-color);
+    border-radius:24px;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding: 5px 18px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.linear-yellow {
+    background-image: linear-gradient(to right, #ffd205 , #ff9b05 );
+}
+
+.linear-pink {
+    background: linear-gradient(to right, #f76570 , #f78d65 );
+}
+
+.linear-purple {
+    background: linear-gradient(to right, #ba71da , #da717b );
+}
+
+/* btn end */
+
+/* label */
+
+.label {
+    border-radius: 4px;
+    color: var(--white-color);
+    padding: 2px 4px;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.8px;
+}
+
+.bgr-red {
+    background-color: #F76570;
+}
+.bgr-green {
+    background-color: #1BBC9B;
+}
+.bgr-light-blue {
+    background-color: #14B9D5;
+}
+.bgr-purple {
+    background-color: #C755DA;
+}
+.bgr-orange {
+    background-color: #F3A46B;
+}
+.bgr-yellow {
+    background-color: #FFD205;
+}
+.bgr-white {
+    background-color: #fff;
+}
+
+/* Text decor */
+
+.spacing-text {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 400;
+}
+
+.white-text {
+    color: var(--white-color) !important;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.green-text {
+    color: #1BBC9B;
+}
+
+.blue-text {
+    color: #14B9D5;
+}
