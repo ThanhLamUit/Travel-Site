@@ -190,7 +190,7 @@
 
 .slider-2 {
     height: 100vh;
-    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/city-tours/wp-content/uploads/sites/5/2018/12/slide-02.jpg");
+    background-image: url("/assets/img/slide-02.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +198,7 @@
 }
 .slider {
     height: 100vh;
-    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/city-tours/wp-content/uploads/sites/5/2018/12/slide-01.jpg");
+    background-image: url("/assets/img/slide-01.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
